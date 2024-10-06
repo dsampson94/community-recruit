@@ -3,6 +3,7 @@ import jwt from 'jsonwebtoken';
 import {jwtDecode} from 'jwt-decode';
 
 interface DecodedToken {
+    avatarUrl: string;
     id: string;
     email: string;
     username: string;
